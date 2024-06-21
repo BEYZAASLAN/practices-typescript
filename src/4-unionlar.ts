@@ -79,7 +79,11 @@ type SkiSchoolStudent = {
 
 
 // Kodu buraya yazalım...
-
+type RGB = {
+    r:number;
+    g:number;
+    b:number;
+}
 
 
 // HSL renklerini temsil eden bir tür oluşturalım. Bu tür, aşağıdaki özelliklere sahip
@@ -90,7 +94,11 @@ type SkiSchoolStudent = {
 
 
 // Kodu buraya yazalım...
-
+type HSL = {
+    h:number;
+    s:number;
+    l:number;
+}
 
 
 // "colors" isminde boş bir array oluşturalım. Bu array, yukarıda oluşturduğumuz iki 
@@ -98,9 +106,10 @@ type SkiSchoolStudent = {
 // bulunabilsin.
 
 
+
 // Kodu buraya yazalım...
 
-
+const colors : (RGB | HSL)[]=[];
 
 
 // **********************************************
